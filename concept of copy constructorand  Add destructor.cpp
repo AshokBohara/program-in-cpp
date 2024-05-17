@@ -1,3 +1,4 @@
+//program is releted to concept of copy constructor and add destructor with detail
 #include <iostream>
 using namespace std;
 class Sample 
