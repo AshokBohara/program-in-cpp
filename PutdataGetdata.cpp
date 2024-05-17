@@ -1,3 +1,4 @@
+//concept of get data and put data using parameterized constructor 
 #include <iostream>
 #include <string>
 using namespace std;
