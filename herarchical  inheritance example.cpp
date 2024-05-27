@@ -1,3 +1,4 @@
+//sum and product using number base class using herarchical inheritance.
 #include<iostream>
 using namespace std;
 class number 
