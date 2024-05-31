@@ -1,3 +1,4 @@
+//number of square of any number from one to ten
 #include <iostream>
 using namespace std;
 int main() 
