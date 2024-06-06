@@ -1,7 +1,7 @@
+//finding the prime number using c++
 #include <iostream>
 #include <cmath>
 using namespace std;
-
 // Base class
 class Number {
 protected:
@@ -12,7 +12,6 @@ public:
         cin >> num;
     }
 };
-
 // Derived class
 class PrimeChecker : public Number {
 public:
@@ -25,7 +24,6 @@ public:
         }
         return true;
     }
-
     void checkPrime() {
         if (isPrime()) {
             cout << num << " is a prime number." << endl;
@@ -34,7 +32,6 @@ public:
         }
     }
 };
-
 int main() {
     PrimeChecker pc;
     pc.inputNumber();
