@@ -1,3 +1,4 @@
+//finding are of rectangle using c++ in parameterized constructor
 #include<iostream>
 using namespace std;
 class area{
