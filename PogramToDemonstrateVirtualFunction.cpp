@@ -1,3 +1,4 @@
+//example of virtual function
 #include<iostream>
 using namespace std;
 
