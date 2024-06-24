@@ -1,3 +1,4 @@
+//swapping the numbers using friend function
 #include<iostream>
 using namespace std;
 class class2;
