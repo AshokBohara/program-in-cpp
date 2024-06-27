@@ -1,3 +1,4 @@
+//number from one to hundred
 #include <iostream>
 int main() {
     // Loop from 1 to 100
