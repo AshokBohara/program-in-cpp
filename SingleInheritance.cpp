@@ -1,3 +1,4 @@
+//using single inheritance detail of a students
 #include <iostream>
 using namespace std;
 class student
