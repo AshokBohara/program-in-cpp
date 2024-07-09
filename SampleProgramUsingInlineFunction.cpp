@@ -1,3 +1,4 @@
+//example of using inline function
 #include<iostream>
 #include<conio.h>
 using namespace std;
