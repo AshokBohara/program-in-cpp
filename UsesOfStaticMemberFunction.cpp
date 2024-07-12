@@ -1,3 +1,4 @@
+//example of static member function 
 #include<iostream>
 #include<conio.h>
 using namespace std;
