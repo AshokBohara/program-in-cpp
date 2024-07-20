@@ -1,3 +1,4 @@
+//adding two number using parameterized constructor
 #include <iostream>
 
 using namespace std;
