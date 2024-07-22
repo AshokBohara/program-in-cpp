@@ -1,3 +1,4 @@
+//displaying details of teacher whith name id and salary
 #include <iostream>
 #include <string> // Include string for using string type
 using namespace std;
