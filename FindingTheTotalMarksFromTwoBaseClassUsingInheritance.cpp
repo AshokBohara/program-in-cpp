@@ -1,3 +1,4 @@
+//example of finding total marks from two base classes
 #include<iostream>
 using namespace std;
 class Student{
