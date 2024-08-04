@@ -1,3 +1,4 @@
+//finding sum of two number using default Arguments
 #include<iostream>
 using namespace std;
 class sum{
