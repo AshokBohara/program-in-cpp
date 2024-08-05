@@ -1,14 +1,16 @@
 //finding sum of two number using default Arguments
 #include<iostream>
 using namespace std;
-class sum{
+class sum
+{
 	int num1,num2,add;
 	public:
-		sum(int a,int b =2){
-			num1=a;
-			num2=b;
-			add=num1+num2;
-			cout<<"The addition of two numbers is : "<<add;
+	sum(int a,int b =2)
+{
+	num1=a;
+	num2=b;
+	add=num1+num2;
+	cout<<"The addition of two numbers is : "<<add;
 			}
 };
 int main()
