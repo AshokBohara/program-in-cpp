@@ -1,3 +1,4 @@
+//student detail detail of function declaration ,definition for displaying data
 #include<iostream>
 #include<conio.h>
 using namespace std;
