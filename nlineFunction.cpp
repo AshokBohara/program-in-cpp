@@ -1,3 +1,4 @@
+//using inline function finding the sum of two number
 #include <iostream>
 #include <conio.h>
 using namespace std;
