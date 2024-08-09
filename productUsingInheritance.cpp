@@ -1,3 +1,4 @@
+//finding product of two number using inheritance.
 #include<iostream>
 using namespace std;
 
