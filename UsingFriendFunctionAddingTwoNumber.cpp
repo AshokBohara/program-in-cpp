@@ -1,3 +1,4 @@
+//sum of two number using friendfunction.
 #include <iostream>
 using namespace std;
 
