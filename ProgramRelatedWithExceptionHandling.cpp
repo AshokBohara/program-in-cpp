@@ -1,3 +1,4 @@
+//example of exception handling.
 #include<iostream>
 using namespace std;
 //Usually,we dont define class in the programs of exception handling.
