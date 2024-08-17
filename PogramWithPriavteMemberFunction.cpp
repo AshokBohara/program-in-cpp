@@ -1,3 +1,4 @@
+//example of private member function.
 #include<iostream>
 #include<math.h>
 using namespace std;
