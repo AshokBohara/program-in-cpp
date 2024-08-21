@@ -1,3 +1,4 @@
+//example of adding complex number using constructor answer is in one is real number and another is an imaginary number.
 #include<iostream>
 #include<math.h>
 using namespace std;
