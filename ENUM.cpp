@@ -1,3 +1,5 @@
+//example of enum.
+
 #include<stdio.h>
 enum week{sun,mon,tue,wed,thur,fri,sat};
 int main()
