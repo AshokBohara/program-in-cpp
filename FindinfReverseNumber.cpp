@@ -1,3 +1,4 @@
+//finding reverse number enter by user.
 #include<stdio.h>
 
 int main()
