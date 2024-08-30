@@ -1,3 +1,4 @@
+//time convert hour to minutes 
 #include <iostream>
 using namespace std;
 
