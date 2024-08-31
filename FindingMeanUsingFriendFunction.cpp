@@ -1,3 +1,4 @@
+//finding mean valu of numbers enter bye users
 #include<iostream>
 #include<math.h>
 using namespace std;
