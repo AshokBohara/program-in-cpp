@@ -1,3 +1,4 @@
+//unsing two class finding the greatest number 
 #include<iostream>
 #include<math.h>
 using namespace std;
