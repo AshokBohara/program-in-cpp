@@ -1,4 +1,4 @@
-//adding two number using parameterized constructor
+//adding two number using parameterized constructor input bye user
 #include <iostream>
 using namespace std;
 class Ashok {
