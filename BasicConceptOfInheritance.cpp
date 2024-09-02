@@ -1,3 +1,4 @@
+//example of Inheritance
 #include <iostream>
 // #include <conio.h> // Not needed in modern C++
 
