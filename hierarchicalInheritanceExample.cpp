@@ -1,12 +1,14 @@
 #include<iostream>
 using namespace std;
 
-class person {
+class person 
+{
 protected:
     char name[20];
     int age;
 public:
-    void readi() {
+    void readi() 
+{
         cout << "Enter name and age of person: ";
         cin >> name >> age;
     }
@@ -16,12 +18,14 @@ public:
     }
 };
 
-class student : public person {
+class student : public person 
+{
 protected:
     int roll;
     float marks;
 public:
-    void read2() {
+    void read2() 
+{
         cout << "Enter roll number and marks: ";
         cin >> roll >> marks;
     }
@@ -31,22 +35,26 @@ public:
     }
 };
 
-class employee : public person {
+class employee : public person 
+{
 protected:
     int employee_id;
     int salary;
 public:
-    void read3() {
+    void read3() 
+{
         cout << "Enter employee ID and salary: ";
         cin >> employee_id >> salary;
     }
-    void display3() {
+    void display3() 
+{
         cout << "Employee ID: " << employee_id << endl;
         cout << "Salary: " << salary << endl;
     }
 };
 
-int main() {
+int main() 
+{
     student s;
     employee e;
 
