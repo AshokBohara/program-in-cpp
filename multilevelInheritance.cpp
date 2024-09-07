@@ -1,31 +1,37 @@
 #include<iostream>
 using namespace std;
 
-class student {
+class student 
+{
 protected:
     int rollno;
     string name;  // Change to string for full name
 public:
-    void read1() {
+    void read1() 
+{
         cout << "Enter name and roll no. of student: ";
         cin >> name >> rollno;
     }
 };
 
-class exam : public student {
+class exam : public student 
+{
 protected:
     float mark1, mark2, mark3;
 public:
-    void read() {
+    void read() 
+{
         cout << "Enter marks for 3 subjects: ";
         cin >> mark1 >> mark2 >> mark3;
     }
 };
 
-class result : public exam {
+class result : public exam 
+{
     float total;
 public:
-    void display() {
+    void display() 
+{
         total = mark1 + mark2 + mark3;
         cout << "Roll No = " << rollno << endl;
         cout << "Name = " << name << endl;
