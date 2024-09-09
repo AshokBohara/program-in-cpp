@@ -1,3 +1,4 @@
+//example of DMA
 #include<iostream>
 #include<conio.h>
 using namespace std;
