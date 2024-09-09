@@ -1,3 +1,4 @@
+//to swoing prize and items 
 #include<iostream>
 #include<cstring>  // Include this for strcpy()
 using namespace std;
