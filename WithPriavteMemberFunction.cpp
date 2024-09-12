@@ -1,3 +1,4 @@
+//example of private Access specifier member function 
 #include<iostream>
 #include<math.h>
 using namespace std;
