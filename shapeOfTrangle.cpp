@@ -1,3 +1,4 @@
+//displaying the shape,area of triangle in object oriented program.
 #include<iostream>
 #include<math.h>
 using namespace std;
