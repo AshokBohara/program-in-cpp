@@ -1,3 +1,4 @@
+//example of function overloading
 #include<iostream>
 using namespace std;
 class base{
