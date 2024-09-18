@@ -1,3 +1,4 @@
+//example of class template
 #include<iostream>
 using namespace std;
 // Template class definition
