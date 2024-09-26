@@ -1,3 +1,4 @@
+//program to add binary number in object oritented program(cpp)
 #include <iostream>
 #include <algorithm>
 using namespace std;
