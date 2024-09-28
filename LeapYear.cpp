@@ -1,3 +1,4 @@
+//entered by user is leap or not leap year in cpp.
 #include<iostream>
 using namespace std;
 
