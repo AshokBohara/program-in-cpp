@@ -1,3 +1,4 @@
+//finding age of tree by counting ring in the tree in cpp language
 #include <iostream>
 using namespace std;
 class Tree 
