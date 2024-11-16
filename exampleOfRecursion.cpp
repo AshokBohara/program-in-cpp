@@ -21,5 +21,5 @@ int main()
     cout<<endl;
     cout<<factorial(n);
     return 0;
-    return 0;
+
 }
