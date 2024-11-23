@@ -3,10 +3,7 @@
 #include<vector>
 using namespace std;
 
-
-
 //vector
-
 // int main()
 // {
 //     vector<int>v(1,4); // [4]
