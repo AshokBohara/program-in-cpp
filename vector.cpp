@@ -1,3 +1,4 @@
+//example of vector using c++,in DSA..
 #include<iostream>
 #include<vector>
 using namespace std;
