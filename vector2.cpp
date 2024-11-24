@@ -1,11 +1,10 @@
+//in this example how to use insert,erasor.. using cpp for vector
 #include<iostream>
 #include<vector>
 using namespace std;
 int main()
 {
-
     //erasor
-
     vector<int> v(5,7);
     v.push_back(3);
     v.push_back(8);
@@ -43,8 +42,7 @@ int main()
 
     // cout<<v.empty();
 
-
      return 0;
 
-     
+    
 }
