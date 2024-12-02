@@ -1,3 +1,4 @@
+//using cpp example of vector ..
 #include<iostream>
 using namespace std;
 int main()
