@@ -1,4 +1,4 @@
-//DSA Pattern using c and c++ programming 
+// Different types of DSA Pattern using c and c++ programming 
 #include <iostream>
 #include<math.h>
 using namespace std;
