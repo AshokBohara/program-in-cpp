@@ -1,6 +1,3 @@
-#include <iostream>
-#define SIZE 10
-
 class Queue
 {
   int a[SIZE];
