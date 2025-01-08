@@ -1,3 +1,4 @@
+//QUEUE IN DSA
 class Queue
 {
   int a[SIZE];
@@ -20,7 +21,8 @@ void Queue::enqueue(int x)
 {
   if(front==-1) front++;
   if(rear==SIZE-1) std::cout << "Queue is full\n";
-  else{
+  else
+  {
     rear++;
     a[rear] = x;
   }
