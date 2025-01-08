@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 #include <iostream>
 #define SIZE 10
 
+=======
+//QUEUE IN DSA
+>>>>>>> c6cb3c3e8a6467420162e4c187fe9570bc15f8fc
 class Queue
 {
   int a[SIZE];
@@ -22,7 +26,8 @@ void Queue::enqueue(int x)
 {
   if(front==-1) front++;
   if(rear==SIZE-1) std::cout << "Queue is full\n";
-  else{
+  else
+  {
     rear++;
     a[rear] = x;
   }
