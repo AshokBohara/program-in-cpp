@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-#include <iostream>
-#define SIZE 10
-
-=======
 //QUEUE IN DSA
->>>>>>> c6cb3c3e8a6467420162e4c187fe9570bc15f8fc
 class Queue
 {
   int a[SIZE];
