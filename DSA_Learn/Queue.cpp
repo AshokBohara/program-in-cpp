@@ -1,11 +1,13 @@
+#include <iostream>
+#define SIZE 10
+
 class Queue
 {
   int a[SIZE];
   int rear;
   int front;
 public:
-  Queue()
-  {
+  Queue(){
     rear = front  = -1;
   }
 
@@ -29,13 +31,10 @@ void Queue::enqueue(int x)
 int Queue::dequeue()
 {
   int i, item;
-  if(rear == -1)
-  {
+  if(rear == -1){
     std::cout << "Empty Queue";
     return 0;
-  }
-  else
-  {
+  }else{
     item = a[front];
     for(i=0;i<rear; i++)a[i] = a[i+1];
   }
@@ -46,10 +45,8 @@ void Queue::display()
 {
   int i;
   if(front==-1||rear==-1||front>rear)std::cout<< "Nothing to display\n";
-  else
-  {
-    for(int i = front; i<= rear; i++)
-    {
+  else{
+    for(int i = front; i<= rear; i++){
       std::cout << a[i] << std::endl;
     }
   }
