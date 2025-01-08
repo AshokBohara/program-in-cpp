@@ -1,3 +1,4 @@
+//function of queue.
 class Queue
 {
     int *QUEUE, front,rear,size;
