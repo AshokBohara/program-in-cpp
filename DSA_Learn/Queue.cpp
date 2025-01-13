@@ -1,4 +1,4 @@
-//QUEUE IN DSA
+//QUEUE IN DSA..implementation of queue
 class Queue
 {
   int a[SIZE];
