@@ -1,57 +1,61 @@
-//QUEUE IN DSA..implementation of queue
+#include <iostream>
+#define SIZE 100  // Define SIZE
+
 class Queue
 {
   int a[SIZE];
   int rear;
   int front;
+
 public:
-  Queue(){
-    rear = front  = -1;
-  }
+  Queue() { front = rear = -1; }
 
   void enqueue(int x);
   int dequeue();
   void display();
-  ~Queue(){}
 };
 
-//implementation of Enqueue
-void Queue::enqueue(int x)
-{
-  if(front==-1) front++;
-  if(rear==SIZE-1) std::cout << "Queue is full\n";
-  else
-  {
-    rear++;
-    a[rear] = x;
+void Queue::enqueue(int x) {
+  if (rear == SIZE - 1) {
+    std::cout << "Queue is full\n";
+    return;
   }
-}
-//implementation of Dequeue
-int Queue::dequeue()
-{
-  int i, item;
-  if(rear == -1){
-    std::cout << "Empty Queue";
-    return 0;
-  }else{
-    item = a[front];
-    for(i=0;i<rear; i++)a[i] = a[i+1];
-  }
-  rear--;
-  return item;
-}
-void Queue::display()
-{
-  int i;
-  if(front==-1||rear==-1||front>rear)std::cout<< "Nothing to display\n";
-  else{
-    for(int i = front; i<= rear; i++){
-      std::cout << a[i] << std::endl;
-    }
-  }
+  if (front == -1) front = 0;  // First element
+
+  a[++rear] = x;
 }
 
-int main (int argc, char *argv[])
+int Queue::dequeue() {
+  if (front == -1 || front > rear)
+   {
+    std::cout << "Queue is empty\n";
+    return -1;
+  }
+  
+  int item = a[front++];
+  
+  // Reset front and rear when queue becomes empty
+  if (front > rear) front = rear = -1;
+
+  return item;
+}
+
+void Queue::display()
+ {
+  if (front == -1 || front > rear)
+   {
+    std::cout << "Nothing to display\n";
+    return;
+  }
+
+  for (int i = front; i <= rear; i++)
+   {
+    std::cout << a[i] << " ";
+  }
+  std::cout << std::endl;
+}
+
+int main()
  {
   Queue q;
   q.enqueue(5);
@@ -60,6 +64,7 @@ int main (int argc, char *argv[])
   q.enqueue(2);
   q.enqueue(1);
   q.dequeue();
-  q.display();
+  q.display();  // Should print: 4 3 2 1
+
   return 0;
 }
