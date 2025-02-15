@@ -1,3 +1,5 @@
+//sum of natural number using recursion
+
 #include <iostream>
 using namespace std;
 
