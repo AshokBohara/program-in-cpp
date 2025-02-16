@@ -1,3 +1,4 @@
+//pattern of dsa using c++
 #include <iostream>
 
 void pattern1(int n)
