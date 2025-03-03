@@ -2,8 +2,10 @@
 #include <iostream>
 using namespace std;
 
-void towerOfHanoi(int n, char source, char dest, char aux) {
-    if (n == 1) {
+void towerOfHanoi(int n, char source, char dest, char aux)
+{
+    if (n == 1)
+    {
         cout << "Move DISK " << n << " from " << source << " to " << dest << endl;
         return; // Exit the function after moving the disk
     }
@@ -13,7 +15,8 @@ void towerOfHanoi(int n, char source, char dest, char aux) {
     towerOfHanoi(n - 1, aux, dest, source);
 }
 
-int main() {
+int main()
+{
     int n;
     cout << "Enter number of disks: ";
     cin >> n;
