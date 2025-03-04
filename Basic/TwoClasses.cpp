@@ -1,9 +1,10 @@
-//unsing two class finding the greatest number 
+//unsing two class finding the greatest number
 #include<iostream>
 #include<math.h>
 using namespace std;
 class XYZ;
-class ABC{
+class ABC
+{
 	int num1;
 	public:
 	void fun1()
@@ -13,7 +14,8 @@ class ABC{
 	}
 	friend void max(ABC obj1,XYZ obj2);
 };
-class XYZ{
+class XYZ
+{
 		int num2;
 		public:
 		void fun2()
