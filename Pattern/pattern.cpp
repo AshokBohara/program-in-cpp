@@ -1,4 +1,4 @@
-// Different types of DSA Pattern using c and c++ programming 
+// Different types of DSA Pattern using c and c++ program.
 #include <iostream>
 #include<math.h>
 using namespace std;
@@ -99,6 +99,7 @@ void pattern5(int n)
         cout << endl;
     }
 }
+
 void pattern6(int n)
 {
     /*
@@ -118,6 +119,7 @@ void pattern6(int n)
         cout << endl;
     }
 }
+
 void pattern7(int n)
 {
     /*
@@ -141,6 +143,7 @@ void pattern7(int n)
         cout << endl;
     }
 }
+
 void pattern8(int n)
 {
     /*
@@ -514,7 +517,7 @@ void pattern22(int n)
     4 3 2 2 2 3 4
     4 3 3 3 3 3 4
     4 4 4 4 4 4 4
-    */ 
+    */
   int j;
   for(int i=0;i<2*n-1;i++)
   {
