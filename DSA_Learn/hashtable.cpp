@@ -72,30 +72,48 @@
       bool found_flag = false;
       if (hash_Table[hv]==key)
          printf("%d is found at %d.\n", key, hv );
+
       else
        {
           for(i=hv+1; i<5 && i!=hv; i=(i+1)%5)
            {
               if(hash_Table[i]==key)
                {
+
+      else {
+          for(i=hv+1; i<5 && i!=hv; i=(i+1)%5)
+             {
+              if(hash_Table[i]==key)
+              {
+
                   printf("%d is found at %d.\n", key, i);
                   found_flag = true;
               }
           }
           if(found_flag == false)
+
            {
+
+          {
+
               printf("%d is not found!\n", key);
           }
       }
    }
    
-   void print_ht() {
+   void print_ht()
+{
        int i;
        printf("\n Hash Value\t Key\n");
        for(i=0;i<5;i++)
+
         {
           if(col_flag[i] == 1)
-           {
+
+          {
+          if(col_flag[i] == 1)
+          {
+
               printf(" %d \t\t %d", i, hash_Table[i]);
                printf("\n");
           }
