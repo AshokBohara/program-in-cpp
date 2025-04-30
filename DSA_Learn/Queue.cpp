@@ -15,8 +15,10 @@ public:
   void display();
 };
 
-void Queue::enqueue(int x) {
-  if (rear == SIZE - 1) {
+void Queue::enqueue(int x)
+ {
+  if (rear == SIZE - 1)
+  {
     std::cout << "Queue is full\n";
     return;
   }
@@ -25,9 +27,10 @@ void Queue::enqueue(int x) {
   a[++rear] = x;
 }
 
-int Queue::dequeue() {
+int Queue::dequeue()
+{
   if (front == -1 || front > rear)
-   {
+  {
     std::cout << "Queue is empty\n";
     return -1;
   }
